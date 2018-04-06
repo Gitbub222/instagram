@@ -1,0 +1,77 @@
+
+
+ @media (max-width: 767.98px) {
+  .container{
+    width:100%;
+    height:100%;
+    margin:0;
+  }
+
+  .container .well .Profile{
+    text-align: center;
+    padding: 5%;
+    background-color:#f5f5f5;
+    border:1px solid #e3e3e3;
+    display: grid;
+    grid-template-columns: 100%;
+  
+  }
+
+  .container .title h1{
+    margin-top: 20%;
+    font-size: 150%;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  }
+
+.container{
+  border-radius:4px;
+  margin-top: 2.5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width:inherit;
+  height:100%;
+}
+
+.App-header {
+  /* background-color: #222; */
+  background-color: rgb(38, 0, 53);
+  width: inherit;
+  height: 20%;
+  padding: 20px;
+  display: grid;
+  color: white;
+  margin: 0;
+  grid-template-columns: 40% 60%;
+}
+
+.title{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.title h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 250%;
+}
+.well{
+  padding:20px;
+  width: inherit;
+  height: 100%;
+  background-color: white;
+  border:1px solid #e3e3e3;
+  border-radius:4px;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow:inset 0 1px 1px rgba(0,0,0,.05)
+}
+
+.Profile{
+  padding: 5%;
+  background-color:#f5f5f5;
+  border:1px solid #e3e3e3;
+  display: grid;
+  grid-template-columns: 20% 75%;
+  grid-column-gap: 5%;
+}
+
